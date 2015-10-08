@@ -1,0 +1,86 @@
+#header {
+ color: white; 
+ font: bold 60px/45px Helvetica, Sans-Serif;
+ letter-spacing: 1px; 
+ position: absolute;
+ top: 1em;
+ left: .5em;
+ background: rgba(0, 0, 0, 0.7);
+ padding: 15px;
+}
+
+body {
+ background: url("https://images.unsplash.com/photo-1434077471918-4ea96e6e45d5?q=80&fm=jpg&s=03b099f2e515d86a05f68db7edef0da7") no-repeat 50% 70% fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ -webkit-background-size: cover;
+}
+
+.mainsections {
+  position: relative;
+  left: 70em;
+  top: 30em;
+  width: 47em;
+  text-align: left;
+}
+
+.mainheads {
+  font: bold 4em Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.mainps {
+  color: white;
+  font: 1.3em Georgia, 'Times Ne Roman', Times, serif;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.tidbits {
+  position: relative;
+  width: 30em;
+  top: 10em;
+}
+
+.tidbitshead {
+  font: bold 2.3em Georgia, 'Times Ne Roman', Times, serif;
+  color: white;
+}
+
+h3 {
+  font: bold 1.5em Georgia, 'Times Ne Roman', Times, serif;
+  color: white;
+}
+.tidbits p, .tidbits ul li {
+  color: white;
+  font: 1em Georgia, 'Times Ne Roman', Times, serif;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.footer h4 {
+  color:white;
+  font: bold 1em Charcoal, sans-serif;
+  padding: 2em;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline;
+  padding: 2em;
+  color: white;
+  font: bold 1em Charcoal, sans-serif;
+}
+
+.footer {
+  text-align: center;
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  bottom:100; 
+  left:0;
+  height: 10em;
+  width:100%;
+}
